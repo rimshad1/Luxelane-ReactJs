@@ -10,7 +10,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="bg-slate-100 fixed w-full py-5 px-20 sm:px-6 lg:px-8 mx-auto">
+    <div className="bg-slate-100 fixed w-full py-5 px-20">
       <nav className="flex items-center justify-between">
         <NavLink to="/Home" className="text-2xl font-bold">
           LUXELANE
