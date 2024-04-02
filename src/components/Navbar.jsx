@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const navItems = [
-    { name: "Home", href: "/Home" },
+    { name: "Home", href: "/" },
     { name: "Shop", href: "/Shop" },
     { name: "About", href: "/About" },
     { name: "Contact", href: "/Contact" },
@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="bg-slate-100 fixed w-full py-5 px-20">
       <nav className="flex items-center justify-between">
-        <NavLink to="/Home" className="text-2xl font-bold">
+        <NavLink to="/" className="text-2xl font-bold">
           LUXELANE
         </NavLink>
         <ul className="flex text-center">
